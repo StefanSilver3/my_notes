@@ -15,11 +15,22 @@ Here I store notes and anything else I need to remember.
 
 
 ### Create a new branch
-```python
+
+***Creates a new branch called "your_branch"
+Switches to that new branch immediately
+You're now working on the new branch instead of your previous branch***
+
+```
 git checkout -b your_branch
+```
+***Pushes your new branch to the remote repository (origin)
+Creates the branch on the remote if it doesn't exist
+Sets up tracking (-u flag) so future git push and git pull commands know where to go***
+```
 git push -u origin your_branch
 ```
+
 **To show branches**
-```python
+```
 git branch
 ```
