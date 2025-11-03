@@ -1,5 +1,5 @@
 # My Notes
-Here i store notes and anything else I need to remember...
+Here I store notes and anything else I need to remember.
 
 ## Git/GitHub
 
